@@ -1,85 +1,72 @@
 body{
-font-family: Arial, sans-serif;
-background:#f4f6f9;
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
 .hero{
-padding:80px 0;
+    padding:80px 0;
 }
-
 
 .profile-card{
-background:white;
-padding:40px;
-border-radius:12px;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
-display:inline-block;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    display:inline-block;
 }
-
 
 .profile-img{
-width:150px;
-height:150px;
-object-fit:cover;
-border-radius:50%;
-border:5px solid #007bff;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #007bff;
 }
-
 
 .section{
-padding:60px 0;
+    padding:60px 0;
 }
-
 
 .section-title{
-color:#007bff;
-margin-bottom:20px;
-font-weight:bold;
+    color:#007bff;
+    margin-bottom:20px;
+    font-weight:bold;
 }
-
 
 .skill-list{
-list-style:none;
-padding:0;
+    list-style:none;
+    padding:0;
 }
-
 
 .skill-list li{
-background:white;
-padding:12px;
-margin:8px 0;
-border-left:5px solid #007bff;
-border-radius:5px;
-box-shadow:0 2px 6px rgba(0,0,0,0.08);
-transition:0.3s;
+    background:white;
+    padding:12px;
+    margin:8px 0;
+    border-left:5px solid #007bff;
+    border-radius:5px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    transition:0.3s;
 }
 
-}
-.skill-item {
-  background: #f5f5f5;
-  padding: 15px;
-  margin: 10px 0;
-  border-left: 5px solid #2f6fed;
-  border-radius: 5px;
+.skill-list li:hover{
+    transform:translateX(5px);
 }
 
-.skill-item ul {
-  margin-top: 8px;
-  padding-left: 20px;
-}
-.skill-item {
-  background: #f5f5f5;
-  padding: 15px;
-  margin: 10px 0;
-  border-left: 5px solid #2f6fed;
-  border-radius: 5px;
+.skill-item{
+    background:#f5f5f5;
+    padding:15px;
+    margin:10px 0;
+    border-left:5px solid #2f6fed;
+    border-radius:5px;
 }
 
-.skill-item {
-  background: #f5f5f5;
-  padding: 15px;
-  margin: 10px 0;
-  border-left: 5px solid #2f6fed;
-  border-radius: 5px;
+.skill-item ul{
+    margin-top:8px;
+    padding-left:20px;
 }
